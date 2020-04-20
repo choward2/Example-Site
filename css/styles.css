@@ -1,0 +1,175 @@
+/***********TAG SELECTORS*******/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+color: #EAF6F6;
+}
+
+hr{
+  border: dotted #bbcccc 5px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+}
+
+p{
+  color: #40514E;
+  margin-bottom: 0;
+  line-height: 2;
+}
+
+/***********CLASS SELECTORS*******/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+background-color: #66bfbf;
+padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 35px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.skills{
+  background-color: #FBFDFD;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.skill-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image1{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+	background-color:#11999e;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:30px;
+	-moz-border-radius-topright:30px;
+	border-top-right-radius:30px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:30px;
+	-moz-border-radius-bottomleft:30px;
+	border-bottom-left-radius:30px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Montserrat;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+  margin: 0 auto 35px;
+}
+.btn:hover {
+	background-color:#2bc4ad;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+}
+/***********ID SELECTORS*******/
+#profile-picture{
+  width: 15%;
+  margin-top: 50px;
+  border-radius: 182px;
+}
+
+#copyright{
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
+
+#contact-statement{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+#tum-anchor{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 3px;
+}
+
+#tum-anchor:hover {
+  color: #2bc4ad;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 3px;
+}
